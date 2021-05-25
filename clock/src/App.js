@@ -55,8 +55,8 @@ class Clock extends React.Component {
         <h1>Relógio</h1>
         {/* Chama a função FormattedDate e passa a date como prop */}
         <FormattedDate date = {this.state.date} />
-        <button className="btn-Pause" onClick={() => this.Pause()}>Pause</button>
-        <button className="btn-Continue" onClick={() => this.Continue()}>Continue</button>
+        <button className="btn-Pause" onClick={() => this.Pause()}>Pausar</button>
+        <button className="btn-Continue" onClick={() => this.Continue()}>Continuar</button>
       </div>
     )
   }
